@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New Timestamped TXT]
+@="new txt file"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New Timestamped TXT\command]
+@="wscript.exe \"C:\\Windows\\RunPowerShellSilently.vbs\""
